@@ -9,4 +9,7 @@ MineAsm - kompilator assemblera dla komputerów w Minecraft
 ###### -p [platform] - Wybiera platforme docelową(Możliwe: mc)
 ###### -b [adress]   - Ustawia adres początku programu w pamięci(standardowo wynosi 0)
 ###### -v            - Kompilator wypisze do konsoli sekwencję działań
+
+#### Link do skompilowanej aplikacji pod Win32:
+[example](http://mafiesto4.pl/pliki/MineAsm.exe "Download")
  
