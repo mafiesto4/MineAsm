@@ -150,14 +150,14 @@ namespace MysticAsm
 						c[2] = a2->Value;
 						c[3] = a1->Value;
 					}
-					// ALU r0 Reg[r1], Reg[r2]
+					// ALU r0 Reg[r2], Reg[r1]
 					else if(a1->Type == AT_Reg && a2->Type == AT_Reg)
 					{
 						// Set up
 						c[0] = 5;
 						c[1] = 1;
-						c[2] = a1->Value;
-						c[3] = a2->Value;
+						c[2] = a2->Value;
+						c[3] = a1->Value;
 					}
 				}
 				else if(cmd->GetName() == "if")
