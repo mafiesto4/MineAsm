@@ -49,10 +49,10 @@ enum ArgType
 	// Adress in the program memory
 	AT_Adress = 5,
 	
-	// Compare type
+	// Compare type, index ind array 'CompareTypes'
 	AT_Compare = 6,
 	
-	// Special data
+	// Special data, index in array 'SpecialTypes'
 	AT_Special = 7,
 };
 
